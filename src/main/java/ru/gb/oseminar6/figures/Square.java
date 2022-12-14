@@ -1,17 +1,16 @@
 package ru.gb.oseminar6.figures;
 
-public class Square extends Rectangle{
+public class Square extends Rectangle {
     private final Double firstSide;
 
     public Square(Double firstSide) {
-        super(firstSide,firstSide);
+        super(firstSide, firstSide);
         this.firstSide = firstSide;
     }
 
     @Override
-    protected Double area() {
-        //finish finding the area
-        return null;
+    public Double area() {
+        return this.firstSide * this.firstSide;
     }
 
     @Override

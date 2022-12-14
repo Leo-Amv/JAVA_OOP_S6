@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f742c375-7169-4bae-8990-1522b15fc8d7" name="Changes" comment="interfaces added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/data/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/data/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/repository/FiguresRepository.java" afterDir="false" />
+    <list default="true" id="f742c375-7169-4bae-8990-1522b15fc8d7" name="Changes" comment="figures,repository added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/data/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/data/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/figures/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/repository/FiguresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/oseminar6/repository/FiguresRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,8 @@
       <updated>1670854117922</updated>
       <workItem from="1670854122204" duration="1857000" />
       <workItem from="1670926909188" duration="1372000" />
-      <workItem from="1671047342929" duration="3473000" />
+      <workItem from="1671047342929" duration="3619000" />
+      <workItem from="1671051070892" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1670854240445</created>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670928344241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="figures,repository added">
+      <created>1671050956912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671050956912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="interfaces added" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces added" />
+    <MESSAGE value="figures,repository added" />
+    <option name="LAST_COMMIT_MESSAGE" value="figures,repository added" />
   </component>
 </project>

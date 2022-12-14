@@ -11,15 +11,13 @@ public class Circle extends Figure implements ILengthable {
     }
 
     @Override
-    protected Double area() {
-        //finish finding the area
-        return null;
+    public Double area() {
+        return 3.14 * radius * radius;
     }
 
     @Override
     public Double length() {
-        //finish finding length
-        return null;
+        return 3.14 * radius * 2;
     }
 
 }

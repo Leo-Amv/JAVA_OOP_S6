@@ -10,7 +10,7 @@ public class Triangle extends Polygon {
     private final Double thirdSide;
 
     public Triangle(Double firstSide, Double secondSide, Double thirdSide) {
-        super(Arrays.asList(firstSide,secondSide,thirdSide));
+        super(Arrays.asList(firstSide, secondSide, thirdSide));
         this.firstSide = firstSide;
         this.secondSide = secondSide;
         this.thirdSide = thirdSide;
@@ -18,8 +18,8 @@ public class Triangle extends Polygon {
 
     @Override
     public Double area() {
-        //finish finding the area
-        return null;
+        Double p = super.perimeter() / 2;
+        return Math.sqrt(p * (p - this.firstSide) * (p - this.secondSide) * (p - this.thirdSide));
     }
 
     public Double getFirstSide() {

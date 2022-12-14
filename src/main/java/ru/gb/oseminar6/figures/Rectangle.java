@@ -9,15 +9,14 @@ public class Rectangle extends Polygon {
     private final Double secondSide;
 
     public Rectangle(Double firstSide, Double secondSide) {
-        super(Arrays.asList(firstSide,secondSide));
+        super(Arrays.asList(firstSide, secondSide,firstSide,secondSide));
         this.firstSide = firstSide;
         this.secondSide = secondSide;
     }
 
     @Override
-    protected Double area() {
-        //finish finding the area
-        return null;
+    public Double area() {
+        return this.firstSide * this.secondSide;
     }
 
     public Double getFirstSide() {
